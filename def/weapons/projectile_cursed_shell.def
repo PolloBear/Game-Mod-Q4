@@ -1,0 +1,13 @@
+"projectile_cursed_shell"
+{
+    "inherit"        "projectile_base"
+    "model"         "models/projectiles/cursed_shell.tga"
+    "speed"         "1200"
+    "damage"        "80"  // Base impact damage
+    "splash_damage" "60"  // Explosion radius damage
+    "splash_radius" "128" // Explosion range
+    "burn_time"     "5"   // Burn duration in seconds
+    "burn_damage"   "10"  // Damage per second
+    "explode_fx"    "fx/explosion_cursed.fx"
+    "trail_fx"      "fx/cursed_trail.fx"
+}

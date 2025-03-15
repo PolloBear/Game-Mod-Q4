@@ -1,0 +1,13 @@
+entityDef fireball_damage {
+	"damage"		"30"
+	"radius"		"128"
+	"push"			"300"
+	"shader"		"mtr_fire_explosion"
+}
+
+entityDef fireball_burn {
+	"damage"		"5"
+	"duration"		"5"
+	"interval"		"1"
+	"shader"		"mtr_burn_effect"
+}
